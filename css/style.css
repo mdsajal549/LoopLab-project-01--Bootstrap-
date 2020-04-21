@@ -1,0 +1,112 @@
+body {
+    background: #333;
+    color: #fff;
+}
+
+.navbar {
+    border-bottom: 3px solid #008ed6;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(51, 51, 51, 0.8)), to(rgba(51, 51, 51, 0.8)));
+    background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8));
+
+}
+
+#home-section {
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(51, 51, 51, 0.8)), to(rgba(51, 51, 51, 0.8))),
+        url('../img/home-section-bg.jpg') no-repeat center top/cover;
+    background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)),
+        url('../img/home-section-bg.jpg') no-repeat center top/cover;
+    background-attachment: fixed;
+
+
+}
+
+.fa-check {
+    background: #fff;
+    font-size: 30px;
+    padding: 4px;
+    color: #008ed6;
+    border-radius: 5px;
+
+
+}
+
+.card-form {
+    opacity: 0.8;
+}
+
+.home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+
+/*explore section css*/
+#explore-main-section {
+    height: 100%;
+    height: 100%;
+
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 249, 250, 0.8)), to(rgba(248, 249, 250, 0.8))),
+        url(../img/explore-bg-2.jpg) no-repeat center/cover;
+
+    background: linear-gradient(rgba(248, 249, 250, 0.8), rgba(248, 249, 250, 0.8)),
+        url(../img/explore-bg-2.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+
+
+#explore-main-section .fa-check {
+    background: #000;
+    font-size: 30px;
+    padding: 4px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+/*create section*/
+#create-main-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(51, 51, 51, 0.8)), to(rgba(51, 51, 51, 0.8))),
+        url(../img/create-bg-1.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(51, 51, 51, 0.8), rgba(51, 51, 51, 0.8)),
+        url(../img/create-bg-1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+
+
+/*share section*/
+
+
+#share-main-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 249, 250, 0.8)), to(rgba(248, 249, 250, 0.8))),
+        url(../img/explore-bg-1.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(248, 249, 250, 0.8), rgba(248, 249, 250, 0.8)),
+        url(../img/explore-bg-1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+#share-main-section .fa-check {
+    background: #000;
+    font-size: 30px;
+    padding: 4px;
+    color: #FFFFFF;
+    border-radius: 5px;
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+    #home-section h1 {
+        font-size: 40px;
+    }
+
+
+
+
+}
